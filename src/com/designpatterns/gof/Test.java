@@ -1,5 +1,6 @@
 package com.designpatterns.gof;
 
+import com.designpatterns.gof.facade.Facade;
 import com.designpatterns.gof.singleton.SingletonEager;
 import com.designpatterns.gof.singleton.SingletonLazy;
 import com.designpatterns.gof.singleton.SingletonLazyHolder;
@@ -39,5 +40,8 @@ public class Test {
         robot.move();
         robot.move();
 
+        // Facade testing
+        Facade facade = new Facade();
+        facade.migrateClient("Thales", "40240570");
     }
 }
