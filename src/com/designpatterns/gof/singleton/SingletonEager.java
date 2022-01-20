@@ -1,4 +1,4 @@
-package com.designpatterns.gof;
+package com.designpatterns.gof.singleton;
 
 /**
  * Eager Singleton
